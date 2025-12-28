@@ -174,7 +174,43 @@ int main()
 ### Step 8:   
   Stop
 # Program:
+#include <stdio.h>
+
+int main()
+{
+    int a, b;
+scanf("%d %d", &a, &b);
+printf("\nArithmetic Operations:\n");
+    printf("Addition (a + b) = %d\n", a + b);
+    printf("Subtraction (a - b) = %d\n", a - b);
+    printf("Multiplication (a * b) = %d\n", a * b);
+if (b != 0)
+    {
+        printf("Division (a / b) = %d\n", a / b);
+        printf("Remainder (a %% b) = %d\n", a % b);
+    }
+    else
+    {
+        printf("Division and Remainder not possible (b = 0)\n");
+    }
+
+    // Bitwise Operations
+    printf("\nBitwise Operations:\n");
+    printf("AND (a & b) = %d\n", a & b);
+    printf("OR (a | b) = %d\n", a | b);
+    printf("XOR (a ^ b) = %d\n", a ^ b);
+    printf("Left Shift (a << b) = %d\n", a << b);
+    printf("Right Shift (a >> b) = %d\n", a >> b);
+    printf("Bitwise NOT of a (~a) = %d\n", ~a);
+    printf("Bitwise NOT of b (~b) = %d\n", ~b);
+
+    return 0;
+}
+
 # Output:
+
+<img width="1848" height="652" alt="image" src="https://github.com/user-attachments/assets/025faba2-2de8-448f-af4f-55322f195230" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -219,7 +255,29 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+#include <stdio.h>
+
+int main()
+{
+    char ch;
+
+    scanf("%c", &ch);
+
+    (ch >= '0' && ch <= '9') ? 
+        printf("Digit") :
+    ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) ?
+        ((ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||
+          ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U') ?
+            printf("Vowel") :
+            printf("Consonant")) :
+        printf("Special Symbol");
+
+    return 0;
+}
+
 # Output:
+<img width="1851" height="642" alt="image" src="https://github.com/user-attachments/assets/15a072f4-66b6-4c3f-bd00-aefc7f9f9d4c" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
