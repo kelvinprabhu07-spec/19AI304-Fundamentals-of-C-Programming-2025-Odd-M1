@@ -116,7 +116,26 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+#include <stdio.h>
+
+int main()
+{
+    int num = 25;
+    float rate = 4.75f;
+    double value = 123.4567;
+    char ch = 'A';
+
+    printf("Integer value   = %d\n", num);
+    printf("Float value     = %.2f\n", rate);
+    printf("Double value    = %.4lf\n", value);
+    printf("Character value = %c\n", ch);
+
+    return 0;
+}
+
 # Output:
+<img width="1347" height="581" alt="image" src="https://github.com/user-attachments/assets/201e69f3-7e1a-4ae9-8f50-753beb95b9a0" />
+
 # Result: 
 
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
