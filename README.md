@@ -76,7 +76,23 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+#include <stdio.h>
+
+#define PI 3.14159
+
+int main()
+{
+    
+    const int DAYS = 7;
+    printf("Macro Constant PI = %.5f\n", PI);
+    printf("Constant Variable DAYS = %d\n", DAYS);
+
+    return 0;
+}
+
 # Output:
+<img width="1416" height="522" alt="image" src="https://github.com/user-attachments/assets/1beb74af-0062-4a51-8056-60e11129252f" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
