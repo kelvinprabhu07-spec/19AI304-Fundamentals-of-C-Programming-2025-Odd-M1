@@ -26,6 +26,7 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+```c
 #include <stdio.h>
 
 int main()
@@ -42,7 +43,7 @@ int main()
 
     return 0;
 }
-
+```
 # Output:
 <img width="1310" height="492" alt="image" src="https://github.com/user-attachments/assets/7450c92e-7dcf-4025-969f-b021b3da781c" />
 
@@ -76,9 +77,10 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
-#include <stdio.h>
+```c
+ include <stdio.h>
 
-#define PI 3.14159
+ define PI 3.14159
 
 int main()
 {
@@ -89,7 +91,7 @@ int main()
 
     return 0;
 }
-
+```
 # Output:
 <img width="1416" height="522" alt="image" src="https://github.com/user-attachments/assets/1beb74af-0062-4a51-8056-60e11129252f" />
 
@@ -116,6 +118,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+```c
 #include <stdio.h>
 
 int main()
@@ -132,7 +135,7 @@ int main()
 
     return 0;
 }
-
+```
 # Output:
 <img width="1347" height="581" alt="image" src="https://github.com/user-attachments/assets/201e69f3-7e1a-4ae9-8f50-753beb95b9a0" />
 
@@ -174,6 +177,7 @@ int main()
 ### Step 8:   
   Stop
 # Program:
+```c
 #include <stdio.h>
 
 int main()
@@ -206,7 +210,7 @@ if (b != 0)
 
     return 0;
 }
-
+```
 # Output:
 
 <img width="1848" height="652" alt="image" src="https://github.com/user-attachments/assets/025faba2-2de8-448f-af4f-55322f195230" />
@@ -255,6 +259,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```c
 #include <stdio.h>
 
 int main()
@@ -274,7 +279,7 @@ int main()
 
     return 0;
 }
-
+```
 # Output:
 <img width="1851" height="642" alt="image" src="https://github.com/user-attachments/assets/15a072f4-66b6-4c3f-bd00-aefc7f9f9d4c" />
 
